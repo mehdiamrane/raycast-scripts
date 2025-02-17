@@ -18,7 +18,15 @@
 archive_url="https://web.archive.org/web/*/$1"
 
 # Close Raycast window by simulating Escape key
-osascript -e 'tell application "System Events" to key code 53'
+# Note: key code 53 corresponds to the Escape key in macOS
+# This is needed to automatically close the Raycast window after execution
+if ! osascript -e 'tell application "System Events" to key code 53' &>/dev/null; then
+    echo "Failed to close Raycast window automatically"
+    # Continue execution even if window closing fails
+fi
 
 # Open the URL in the default browser
-open "$archive_url"
+if ! open "$archive_url"; then
+    echo "Failed to open URL in browser"
+    exit 1
+fi
