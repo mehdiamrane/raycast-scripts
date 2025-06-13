@@ -11,7 +11,7 @@ A collection of useful Raycast scripts to enhance your productivity.
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/mehdiamrane/raycast
+git clone https://github.com/mehdiamrane/raycast-scripts.git
 ```
 
 2. Copy the scripts to your Raycast scripts directory
