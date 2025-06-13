@@ -15,17 +15,36 @@ git clone https://github.com/mehdiamrane/raycast
 ```
 
 2. Copy the scripts to your Raycast scripts directory
+3. Run the setup script to make all scripts executable
 
 ## Available Scripts
 
-### 1. Wayback Machine
+### 1. Make Custom Scripts Executable
+
+Makes all scripts in the scripts directory executable. Run this after cloning the repository or adding new scripts.
+
+- **Usage**: `Make Custom Scripts Executable`
+
+### 2. Dia — New Tab Search
+
+Search in Dia browser by opening a new tab. The script will:
+
+- Open Dia if it's not already running
+- Open a new tab
+- Paste your search query
+- Press Enter to perform the search
+
+- **Usage**: `Dia — New Tab Search <search-query>`
+- **Example**: `Dia — New Tab Search "who is the president of the united states"`
+
+### 3. Wayback Machine
 
 View any URL in the Internet Archive's Wayback Machine.
 
 - **Usage**: `Wayback Machine <url>`
 - **Example**: `Wayback Machine https://example.com`
 
-### 2. Brew Uninstall Cask
+### 4. Brew Uninstall Cask
 
 Uninstall a Homebrew cask with confirmation.
 

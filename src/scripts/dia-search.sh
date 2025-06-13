@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Dia — Search in new tab
+# @raycast.title Dia — New Tab Search
 # @raycast.mode compact
 
 # Optional parameters:
