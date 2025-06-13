@@ -25,6 +25,15 @@ View any URL in the Internet Archive's Wayback Machine.
 - **Usage**: `Wayback Machine <url>`
 - **Example**: `Wayback Machine https://example.com`
 
+### 2. Brew Uninstall Cask
+
+Uninstall a Homebrew cask with confirmation.
+
+Created this script because the uninstall command is not handled by default in the Raycast Brew extension.
+
+- **Usage**: `Uninstall Cask <cask-name>`
+- **Example**: `Uninstall Cask google-chrome`
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
